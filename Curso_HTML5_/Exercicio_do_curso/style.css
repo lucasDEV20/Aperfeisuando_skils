@@ -5,9 +5,10 @@ header {
 body {
     background: #dcdddb;
     padding: 15px 10px 5px 0;
-    border: 3px solid #505050;
     margin: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title {
@@ -50,8 +51,20 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    color: #0000ff;
+    text-decoration: none;
 }
