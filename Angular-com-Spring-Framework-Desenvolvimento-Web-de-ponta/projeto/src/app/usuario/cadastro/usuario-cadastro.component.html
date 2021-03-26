@@ -1,0 +1,13 @@
+<form>
+    <div>
+        <label>Nome</label>
+        <input type="text" name="nome" [ngmmode]="usuario.nome" />
+    </div>
+    <br />
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" [ngmmode]="usuario.email" />
+    </div>
+    <button (click)="salvar()">Salvar</button>
+
+</form>
