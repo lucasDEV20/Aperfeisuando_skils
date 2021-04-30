@@ -2,11 +2,11 @@
 
 <img align="right" width="400" height="400" src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo-300x300.png">
  
-# Welcome and my portifolio 😎 !
+# Welcome and my portifólio!
 
 ## I'm Lucas!
  
-Neste perfil você vai encontrar meu portifólio e projetos de estudos ou da faculdade, minhas redes estão abaixo.
+Neste repositorio você vai encontrar meu portifólio e projetos de estudos ou da faculdade, minhas redes estão abaixo.
  
 ... 
 ## About me 
