@@ -3,7 +3,7 @@
 <img align="right" width="400" height="400" src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo-300x300.png">
 
 ---  
-# Welcome and my portifólio!
+# Welcome and my portfolio!
 
 ## I'm Lucas!
  
