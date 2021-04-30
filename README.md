@@ -1,14 +1,16 @@
 
 
 <img align="right" width="400" height="400" src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo-300x300.png">
- 
+
+---  
 # Welcome and my portifólio!
 
 ## I'm Lucas!
  
-Neste repositorio você vai encontrar meu portifólio e projetos de estudos ou da faculdade, minhas redes estão abaixo.
- 
-... 
+In this repository you will find my portfolio and study or college projects, my networks are below.
+
+--- 
+
 ## About me 
 ![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/lucasDEV20)
 ![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/feed/)
