@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>filterable responsive lightbox gallery tutorial</title>
+
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+
+    <div class="gallery">
+        <ul class="controls">
+            <li class="buttons " data-filter="quemSomos">Quem somos ?</li>
+            <li class="buttons active" data-filter="galeria">galeria</li>
+        </ul>
+
+
+
+
+
+        <div class="image-container">
+
+
+            <a href="images/201201654_4211382942218474_7471761755874303967_n.jpg" class="image Serviços">
+                <img src="images/201201654_4211382942218474_7471761755874303967_n.jpg" alt="" />
+            </a>
+            <a href="images/201201654_4211382942218474_7471761755874303967_n.jpg" class="image Serviços">
+                <img src="images/201201654_4211382942218474_7471761755874303967_n.jpg" alt="" />
+            </a>
+
+            <a href="images/Serviços1.jpg" class="image Serviços">
+                <img src="images/Serviços1.jpg" alt="" />
+            </a>
+            <a href="images/Serviços2.jpg" class="image Serviços">
+                <img src="images/Serviços2.jpg" alt="" />
+            </a>
+
+            <a href="images/Serviços1.jpg" class="image Serviços">
+                <img src="images/Serviços1.jpg" alt="" />
+            </a>
+            <a href="images/Serviços2.jpg" class="image Serviços">
+                <img src="images/Serviços2.jpg" alt="" />
+            </a>
+
+        </div>
+    </div>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".buttons").click(function() {
+                $(this).addClass("active").siblings().removeClass("active");
+
+                var filter = $(this).attr("data-filter");
+
+                if (filter == "galeria") {
+                    $(".image").show(400);
+                } else {
+                    $(".image")
+                        .not("." + filter)
+                        .hide(200);
+                    $(".image")
+                        .filter("." + filter)
+                        .show(400);
+                }
+            });
+
+            $(".gallery").magnificPopup({
+                delegate: "a",
+                type: "image",
+                gallery: {
+                    enabled: true,
+                },
+            });
+        });
+    </script>
+</body>
+
+</html>
